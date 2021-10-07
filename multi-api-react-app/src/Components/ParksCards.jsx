@@ -1,12 +1,11 @@
 import React from 'react'
 
 
-const ParksCards = () => {
-    // const {id, url, parkCode, description, latLong, activities, contacts, directionsURL} = data
+const ParksCards = ({ parks }) => {
     return (
         <>
-            <div>
-                <div></div>
+            <div className='container'>
+                <h1>{parks}</h1>
             </div>
         </>
     )
