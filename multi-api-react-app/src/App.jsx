@@ -31,12 +31,12 @@ function App() {
   return (
     <div className="App">
       <h1 className='title'>Parks to Explore!</h1>
-      {parks.map((parks, id) => (
+      {/* {parks.map((parks, id) => (
         <div key={id}>
           <h2>{parks.fullName}</h2>
         </div>
       )
-      )}
+      )} */}
     </div>
   );
 }
